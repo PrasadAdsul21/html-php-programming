@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>the jQuery example for removing element</title>
+<script type="text/javascript" src="jquery-3.6.0.mim.js">
+</script>
+<script type="text/javascript" language="javascript">
+$(document).ready(function(){
+$("div").click(function(){
+$(this).remove();
+});
+});
+</script>
+<style>
+.div{ margin:20px; border:10px solid #666; width:80px;}
+</style>
+</head>
+<body>
+<P>click on any square below:</P>
+<span id="result"></span>
+<div class="div" style="background-color:Blue;"></div>
+<div class="div" style="background-color:orange;"></div>
+<div class="div" style="background-color:green;"></div>
+</body>
+</html>
+
+

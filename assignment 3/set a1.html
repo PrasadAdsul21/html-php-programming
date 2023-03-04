@@ -1,0 +1,27 @@
+<html>  
+<head>  
+<script language = "javascript">  
+function disp_promptfun() 
+{  
+var a=prompt ("Exams are near, have you started preparing for?")
+if(a!=null && a!="")
+{document.write("best of luck for exam")
+}  }
+
+function myFunction() {
+alert("Exams are near, have you started preparing for?");
+}
+ function disp_confirm(){
+confirm("Exams are near, have you started preparing for?\nEither OK or Cancel.");
+}
+</script>  
+</head>  
+  
+<body>  
+<p> Click the following button to see the effect </p>  
+
+<input type = "button"  onclick = "disp_promptfun()"  value="show prompt box">
+<input type = "button"  onclick = "myFunction()"  value="show alert box">
+<input type = "button"  onclick = "disp_confirm()"  value="show confirm box">
+</body>
+</html>
